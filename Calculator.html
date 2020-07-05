@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Calculadora</title>
+
+    <!-- link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Roboto&family=Ubuntu:wght@300&display=swap" rel="stylesheet"-->
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <h1>Calculadora Javascript</h1>
+    <p class="warning">Não divida por zero</p>
+
+    <div id="calculator" class="calculator">
+
+        <button id="clear">C</button>
+
+        <div id="viewer" class="viewer">0</div>
+
+        <button class="num" data-num="7">7</button>
+        <button class="num" data-num="8">8</button>
+        <button class="num" data-num="9">9</button>
+        <button data-ops="mais" class="ops">+</button>
+
+        <button class="num" data-num="4">4</button>
+        <button class="num" data-num="5">5</button>
+        <button class="num" data-num="6">6</button>
+        <button data-ops="menos" class="ops">-</button>
+
+        <button class="num" data-num="1">1</button>
+        <button class="num" data-num="2">2</button>
+        <button class="num" data-num="3">3</button>
+        <button data-ops="vezes" class="ops">*</button>
+
+        <button class="num" data-num="0">0</button>
+        <button class="num" data-num=".">.</button>
+        <button id="equals" class="equals">=</button>
+        <button data-ops="dividido por" class="ops">/</button>
+    </div>
+
+    <button id="reset" class="reset">Reset Universe?</button>
+
+    <script src="process.js"></script>
+    
+</body>
+</html>
